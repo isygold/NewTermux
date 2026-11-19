@@ -69,9 +69,9 @@ import java.io.InputStream
 import kotlin.math.max
 
 /**
- * Full screen image viewer for `ACTION_VIEW` intents with an `image/*` mime type.
+ * Full screen image viewer for `ACTION_VIEW` intents with an image mime type.
  *
- * This is the target of the `image/*` intent filter that [com.termux.app.api.file.FileReceiverActivity]
+ * This is the target of the image intent filter that [com.termux.app.api.file.FileReceiverActivity]
  * used to receive: viewing an image now renders it instead of copying it into `~/downloads` and
  * launching `termux-file-editor`. Sharing an image (`ACTION_SEND`) still goes to the file receiver,
  * since "share to Termux" is expected to save the file for the shell.
