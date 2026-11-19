@@ -244,6 +244,6 @@
     <string name="battery_opt_prompt_later">Not now</string>
 
     <!-- Image viewer activity -->
-    <string name="label_image_viewer">Image viewer</string>
+    <string name="label_image_viewer">Image viewer (rebuild)</string>
 
 </resources>
