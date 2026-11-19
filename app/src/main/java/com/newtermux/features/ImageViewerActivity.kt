@@ -86,7 +86,7 @@ class ImageViewerActivity : AppCompatActivity() {
         val uri = intent?.data
         setContent {
             NewTermuxComposeTheme(this) {
-                ImageViewerScreen(activity = this, uri = uri)
+                ImageViewerScreen(activity = this, initialUri = uri)
             }
         }
     }
